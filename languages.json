@@ -1140,6 +1140,13 @@
       "multi_line_comments": [["{-", "-}"]],
       "extensions": ["purs"]
     },
+    "Pyret": {
+      "line_comment": ["#"],
+      "multi_line_comments": [["#|", "|#"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "extensions": ["arr"],
+      "nested": true
+    },
     "Python": {
       "line_comment": ["#"],
       "doc_quotes": [["\\\"\\\"\\\"", "\\\"\\\"\\\""], ["'''", "'''"]],
@@ -1147,12 +1154,6 @@
       "env": ["python", "python2", "python3"],
       "mime": ["text/x-python"],
       "extensions": ["py", "pyw"]
-    },
-    "Pyret": {
-      "line_comment": ["#"],
-      "multi_line_comments": ["#|", "|#"],
-      "quotes": [["\\\"", "\\\""], ["'", "'"]],
-      "extensions": ["arr"]
     },
     "Q": {
       "name": "Q",

@@ -1,4 +1,4 @@
-//! 22 lines 8 code 3 comments 6 blanks
+# 23 lines 9 code 8 comments 6 blanks
 
 fun single-quote():
   doc: "this is a documentation string"
@@ -18,5 +18,5 @@ end
 nested = #|
   doesn't start yet
   or yet
-|# 
+|#
 "nested"
